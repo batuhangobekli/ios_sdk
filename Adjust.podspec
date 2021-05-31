@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Criteo' do |cr|
-    cr.source_files = 'plugin/Criteo/*.{h,m}'
+    cr.source_files = 'Adjust/Criteo/*.{h,m}'
     cr.dependency 'Adjust/Core'
   end
 
